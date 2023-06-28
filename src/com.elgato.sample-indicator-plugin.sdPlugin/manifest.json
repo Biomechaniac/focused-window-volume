@@ -2,7 +2,7 @@
     "Actions": [
         {
             "Icon": "action/images/actionimage",
-            "Name": "Sample Indicator",
+            "Name": "Focused Window Volume",
             "States": [
                 {
                     "Image": "action/images/image"
@@ -17,25 +17,25 @@
                 "Icon": "action/images/dialstack_background.svg",
                 "StackColor": "#0000FF",
                 "TriggerDescription": {
-                    "Rotate": "unused",
-                    "Push": "next example",
-                    "Touch": "next example",
+                    "Rotate": "Change Volume",
+                    "Push": "mute",
+                    "Touch": "mute",
                     "LongTouch": "Unused"
                 }
             },
             "SupportedInMultiActions": false,
-            "Tooltip": "How to use indicators",
-            "UUID": "com.elgato.sample-indicator.action"
+            "Tooltip": "Allows you to control the volume of the currently focused window.",
+            "UUID": "com.biomechaniac.streamdeck.focused-window-volume"
         }
     ],
     "SDKVersion": 2,
-    "Author": "Elgato",
+    "Author": "Biomechaniac",
     "CodePath": "index.html",
     "PropertyInspectorPath": "actions/property-inspector/inspector.html",
-    "Description": "Move indicators.",
-    "Category": "Samples",
+    "Description": "Control the volume of the currently focused window.",
+    "Category": "Volume Control",
     "CategoryIcon": "category-samples",
-    "Name": "Sample Indicator",
+    "Name": "Focused Window Volumer",
     "Icon": "pluginIcon",
     "URL": "https://www.elgato.com/gaming/stream-deck",
     "Version": "0.1.0.04",

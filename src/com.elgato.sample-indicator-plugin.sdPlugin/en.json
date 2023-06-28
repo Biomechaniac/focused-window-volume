@@ -1,10 +1,10 @@
 {
-	"Description": "Create a sample indicator.", 
-	"Name": "Sample Indicator",
-	"Category": "Samples",
+	"Description": "Allows you to control the volume of the currently focused window.", 
+	"Name": "Focused Window Volume",
+	"Category": "Volume Control",
 	"com.elgato.sample-indicator.action": {
-		"Name": "Sample Indicator",
-		"Tooltip": "How to move indicators."
+		"Name": "Focused Window Volume",
+		"Tooltip": "Allows you to control the volume of the currently focused window."
 	},
 	"Localization": {
 		"None": "None"
