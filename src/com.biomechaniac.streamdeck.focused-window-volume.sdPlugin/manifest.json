@@ -9,18 +9,16 @@
                 }
             ],
             "Controllers": [
-                "Keypad",
                 "Encoder"
             ],
             "Encoder": {
                 "layout": "$B1",
-                "Icon": "action/images/dialstack_background.svg",
+                "Icon": "action/images/image.svg",
                 "StackColor": "#0000FF",
                 "TriggerDescription": {
                     "Rotate": "Change Volume",
-                    "Push": "mute",
-                    "Touch": "mute",
-                    "LongTouch": "Unused"
+                    "Push": "Mute",
+                    "Touch": "Mute"
                 }
             },
             "SupportedInMultiActions": false,
@@ -35,8 +33,8 @@
     "Description": "Control the volume of the currently focused window.",
     "Category": "Volume Control",
     "CategoryIcon": "category-samples",
-    "Name": "Focused Window Volumer",
-    "Icon": "pluginIcon",
+    "Name": "Focused Window Volume",
+    "Icon": "action/images/actionimage",
     "URL": "https://www.elgato.com/gaming/stream-deck",
     "Version": "0.1.0.04",
     "OS": [
